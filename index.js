@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 app.get('/', (req, res) => {
-  res.send('🚀 Hello from Node.js Express on Cloud Run!');
+  res.send('🚀 Welcome to Dexra, An Xception, not a rule!!');
 });
 
 app.listen(PORT, () => {
